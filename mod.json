@@ -1,0 +1,12 @@
+{
+  "geode": "$GEODE_VERSION",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "kadir918e.orangemod",
+  "name": "OrangeMod",
+  "version": "v1.0.0",
+  "developer": "Kadir918e",
+  "description": "My first Geometry Dash mod!",
+  "dependencies": {}
+}
