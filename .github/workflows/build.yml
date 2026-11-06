@@ -12,9 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Build OrangeMod for Android
+      - name: Build OrangeMod
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
@@ -26,3 +27,4 @@ jobs:
         with:
           name: OrangeMod
           path: ${{ steps.build.outputs.build-output }}
+
